@@ -1,0 +1,197 @@
+{
+  "full_name": "Alice Wong",
+  "emails": [
+    "alice.wong@example.com",
+    "alice.w@altmail.com",
+    "alice.wong+gh@example.com"
+  ],
+  "phones": [
+    "+14155550192"
+  ],
+  "location": {
+    "city": "San Francisco",
+    "region": "CA",
+    "country": "USA"
+  },
+  "links": [
+    {
+      "type": "github_profile",
+      "url": "github_profile:alice_github.txt"
+    },
+    {
+      "type": "linkedin_profile",
+      "url": "linkedin_profile:alice_linkedin.txt"
+    }
+  ],
+  "headline": "Senior Backend Engineer",
+  "years_experience": 7.0,
+  "skills": [
+    {
+      "name": "Python",
+      "confidence": 0.8,
+      "sources": [
+        "ats_json:ats.json",
+        "github_profile:alice_github.txt",
+        "linkedin_profile:alice_linkedin.txt"
+      ]
+    },
+    {
+      "name": "Go",
+      "confidence": 0.8,
+      "sources": [
+        "ats_json:ats.json",
+        "github_profile:alice_github.txt"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "confidence": 0.8,
+      "sources": [
+        "ats_json:ats.json",
+        "linkedin_profile:alice_linkedin.txt"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "confidence": 0.8,
+      "sources": [
+        "ats_json:ats.json"
+      ]
+    },
+    {
+      "name": "gRPC",
+      "confidence": 0.5,
+      "sources": [
+        "github_profile:alice_github.txt"
+      ]
+    },
+    {
+      "name": "Kafka",
+      "confidence": 0.5,
+      "sources": [
+        "github_profile:alice_github.txt"
+      ]
+    },
+    {
+      "name": "AWS",
+      "confidence": 0.5,
+      "sources": [
+        "linkedin_profile:alice_linkedin.txt"
+      ]
+    },
+    {
+      "name": "Leadership",
+      "confidence": 0.5,
+      "sources": [
+        "linkedin_profile:alice_linkedin.txt"
+      ]
+    }
+  ],
+  "experience": null,
+  "education": null,
+  "overall_confidence": 0.625,
+  "provenance": [
+    {
+      "field": "full_name",
+      "source": "recruiter_csv:recruiter.csv",
+      "method": "direct"
+    },
+    {
+      "field": "emails",
+      "source": "recruiter_csv:recruiter.csv",
+      "method": "direct"
+    },
+    {
+      "field": "phones",
+      "source": "recruiter_csv:recruiter.csv",
+      "method": "normalized:E.164"
+    },
+    {
+      "field": "headline",
+      "source": "recruiter_csv:recruiter.csv",
+      "method": "direct"
+    },
+    {
+      "field": "full_name",
+      "source": "ats_json:ats.json",
+      "method": "direct"
+    },
+    {
+      "field": "emails",
+      "source": "ats_json:ats.json",
+      "method": "direct"
+    },
+    {
+      "field": "location",
+      "source": "ats_json:ats.json",
+      "method": "parsed"
+    },
+    {
+      "field": "years_experience",
+      "source": "ats_json:ats.json",
+      "method": "direct"
+    },
+    {
+      "field": "skills",
+      "source": "ats_json:ats.json",
+      "method": "direct"
+    },
+    {
+      "field": "emails",
+      "source": "github_profile:alice_github.txt",
+      "method": "regex_extracted"
+    },
+    {
+      "field": "full_name",
+      "source": "github_profile:alice_github.txt",
+      "method": "regex_extracted"
+    },
+    {
+      "field": "skills",
+      "source": "github_profile:alice_github.txt",
+      "method": "regex_extracted",
+      "confidence_note": "unstructured:lower"
+    },
+    {
+      "field": "links",
+      "source": "github_profile:alice_github.txt",
+      "method": "direct"
+    },
+    {
+      "field": "headline",
+      "source": "github_profile:alice_github.txt",
+      "method": "regex_extracted"
+    },
+    {
+      "field": "phones",
+      "source": "linkedin_profile:alice_linkedin.txt",
+      "method": "regex_extracted+normalized"
+    },
+    {
+      "field": "full_name",
+      "source": "linkedin_profile:alice_linkedin.txt",
+      "method": "regex_extracted"
+    },
+    {
+      "field": "skills",
+      "source": "linkedin_profile:alice_linkedin.txt",
+      "method": "regex_extracted",
+      "confidence_note": "unstructured:lower"
+    },
+    {
+      "field": "years_experience",
+      "source": "linkedin_profile:alice_linkedin.txt",
+      "method": "regex_extracted"
+    },
+    {
+      "field": "links",
+      "source": "linkedin_profile:alice_linkedin.txt",
+      "method": "direct"
+    },
+    {
+      "field": "headline",
+      "source": "linkedin_profile:alice_linkedin.txt",
+      "method": "regex_extracted"
+    }
+  ]
+}

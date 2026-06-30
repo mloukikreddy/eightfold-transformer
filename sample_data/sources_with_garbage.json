@@ -1,0 +1,5 @@
+[
+  {"type": "recruiter_csv", "path": "sample_data/recruiter.csv"},
+  {"type": "resume", "path": "sample_data/alice_resume_garbled.txt"},
+  {"type": "ats_json", "path": "sample_data/does_not_exist.json"}
+]

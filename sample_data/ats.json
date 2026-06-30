@@ -1,0 +1,7 @@
+{
+  "fullName": "Alice K. Wong",
+  "email": ["alice.w@altmail.com"],
+  "location": "San Francisco, CA, USA",
+  "experience_years": 7,
+  "skills": ["Python", "Go", "Kubernetes", "PostgreSQL"]
+}

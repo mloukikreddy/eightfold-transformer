@@ -1,0 +1,6 @@
+[
+  {"type": "recruiter_csv", "path": "sample_data/recruiter.csv"},
+  {"type": "ats_json", "path": "sample_data/ats.json"},
+  {"type": "github_profile", "path": "sample_data/alice_github.txt"},
+  {"type": "linkedin_profile", "path": "sample_data/alice_linkedin.txt"}
+]

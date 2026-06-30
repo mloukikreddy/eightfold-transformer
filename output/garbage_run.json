@@ -1,0 +1,39 @@
+{
+  "full_name": "Alice Wong",
+  "emails": [
+    "alice.wong@example.com"
+  ],
+  "phones": [
+    "+14155550192"
+  ],
+  "location": null,
+  "links": null,
+  "headline": "Senior Backend Engineer",
+  "years_experience": null,
+  "skills": null,
+  "experience": null,
+  "education": null,
+  "overall_confidence": 0.825,
+  "provenance": [
+    {
+      "field": "full_name",
+      "source": "recruiter_csv:recruiter.csv",
+      "method": "direct"
+    },
+    {
+      "field": "emails",
+      "source": "recruiter_csv:recruiter.csv",
+      "method": "direct"
+    },
+    {
+      "field": "phones",
+      "source": "recruiter_csv:recruiter.csv",
+      "method": "normalized:E.164"
+    },
+    {
+      "field": "headline",
+      "source": "recruiter_csv:recruiter.csv",
+      "method": "direct"
+    }
+  ]
+}
